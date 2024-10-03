@@ -1,0 +1,847 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   font-size: x-large;
+   box-sizing: border-box;
+ 
+}
+
+
+.icon-home i{
+    width: 10px;
+    height: 10px;
+   top: 10px;
+   left: 2%;
+    box-sizing: border-box;
+    position: absolute;
+   cursor: pointer;
+}
+.navbar-head{
+width: 100%;
+background-color: rgb(28, 26, 21);
+color: rgb(245, 244, 244);
+height: 40px;
+position: relative;
+margin-left: 0px;
+}
+
+.list {
+    margin-right:10px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 40px;
+    float: right;
+    list-style: none;
+    
+    }
+    .list a{
+        text-decoration: none;
+        color: white;
+    }
+
+.list ul li{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+ margin-right: 20px;
+ display: inline-block;
+
+ cursor: pointer;
+}
+.hero{
+    width: 100%;
+    height:600px;
+ position: relative;
+    background-repeat: no-repeat;
+   background-size: cover;
+background-image: url("Photo/coc-branding2.jpg");
+}
+.img-text-hero  {
+   top: 40%;
+   text-align: center;
+   color: rgb(8, 7, 7);
+   position: absolute;
+    font-size: x-large;
+    font-weight: bolder;
+    left: 30vw;
+    
+
+}
+.button-hero{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    margin: auto;
+}
+.button-hero button{
+    background-color:rgb(1, 1, 1);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+  color: rgb(245, 242, 236);
+}
+.button_Get:hover{
+background-color: rgb(191, 173, 132);
+cursor: pointer;
+}
+.button_Learn:hover {
+    background-color: rgb(191, 173, 132);
+    cursor: pointer;
+    }
+
+
+    .service {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .Maintenance , .Laptops , .Recycling{
+        border: 1px solid black;
+     position: relative;
+        height: 300px;
+      width: 13%;
+      margin: 20px;
+     text-align: center;
+     line-height: 50px;
+        display: inline-block;
+       
+     
+    }
+    .Maintenance{
+        margin-left: 518px;
+    }
+    .Maintenance button {
+    
+        background-color: black;
+        color: wheat;
+       
+    }
+    .Maintenance button a{
+        color: rgb(9, 8, 8);
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 0px;
+        width: 100px;
+        font-size: medium;
+    }
+ 
+    .Maintenance button {
+        position: absolute;
+        
+      left: 0px;
+      bottom: 2px;
+        color: rgb(248, 248, 248);
+        border-radius: 5px;
+    }
+    .Recycling button {     
+        position: absolute;
+        left: 0px;
+        bottom: 2px;
+        background-color: black;
+        color: rgb(245, 238, 238);
+    }
+    .Laptops button {       
+        position: absolute;
+        left: 0px;
+        bottom: 2px;
+        background-color: rgb(45, 31, 31);
+        color: rgb(9, 8, 8);
+    }
+  
+
+
+
+    .Recycling button a{
+       font-size: medium;
+        color: rgb(51, 36, 36);
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .Laptops button a{
+        color: rgb(4, 4, 4);
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: medium;
+       
+    }
+
+.overley_Laptop{
+    position: absolute;
+    width: 0px;
+    height: 0px;
+  top: 0px;
+  left: 0px;
+ 
+
+}
+.Laptops:hover .overley_Laptop{
+    width: 100%;
+    height: 100%;
+     transition: .5s;
+    background-color: rgba(14, 14, 13, 0.605);
+}
+.Laptops:hover .Laptops button {
+    background-color: white;
+}
+.Maintenance:hover .overley_Laptop{
+    width: 100%;
+    height: 100%;
+     transition: .5s;
+    background-color: rgba(14, 14, 13, 0.605);
+}
+.Recycling:hover .overley_Laptop{
+    width: 100%;
+    height: 100%;
+     transition: .5s;
+    background-color: rgba(14, 14, 13, 0.605);
+}
+
+.img_level_1_Galary{
+    background-color: aliceblue;
+    width: 100%;
+    
+}
+.galery-of-website div{
+    float: left;
+  margin-top: 0px;
+   
+}
+.img_1_lef_belw , .img_2_mittle_belw ,.img_3_right_belw {
+    width: 300px;
+    height: 300px;
+    margin-top: 10px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.img_1_lef_belw{
+    margin-left: 25%;
+
+}
+
+
+.galery-of-website .img_1_lef_belw  img{
+    border-radius: 20px;
+    
+}
+.galery-of-website .img_2_mittle_belw  img{
+    border-radius: 20px;
+    
+}
+.galery-of-website .img_3_right_belw  img{
+    border-radius: 20px;
+    
+}
+
+.overley_Galary_of_website_1 ,.overley_Galary_of_website_2,.overley_Galary_of_website_3{
+    width: 100%;
+    height: 0%;
+    position: absolute;
+   top: 0px;
+   
+transition: .5s;
+}
+.img_1_lef_belw_icon{
+   
+    position: absolute;
+  top: 40%;
+  right: 22%;
+  display: none;
+}
+.img_1_lef_belw:hover .img_1_lef_belw_icon{
+    display: block;
+}
+
+
+
+.img_1_lef_belw:hover .overley_Galary_of_website_1  {
+    border-radius: 20px;
+    background-color: rgba(199, 26, 26, 0.622);
+    width: 100%;
+    height: 100%;
+}
+
+.img_1_mittle_belw_icon{
+   
+    position: absolute;
+  top: 40%;
+  right: 22%;
+  display: none;
+}
+.img_2_mittle_belw:hover .img_1_mittle_belw_icon{
+    display: block;
+    z-index: 5;
+}
+
+.img_2_mittle_belw:hover .overley_Galary_of_website_2 {
+    border-radius: 20px;
+    background-color: rgba(199, 26, 26, 0.622);
+  width: 100%;
+  height: 100%;
+}
+
+
+.img_1_right_belw_icon{
+   
+    position: absolute;
+  top: 40%;
+  right: 22%;
+  display: none;
+  z-index: 5;
+}
+.img_3_right_belw:hover .img_1_right_belw_icon{
+    display: block;
+    z-index: 5;
+}
+
+.img_3_right_belw:hover .overley_Galary_of_website_3{
+    border-radius: 20px;
+    background-color: rgba(199, 26, 26, 0.622);
+    width: 100%;
+    height: 100%;
+}
+
+
+.sevice-of-website{
+    width: 100%;
+  margin-top: 40px;
+ 
+}
+.sevice-of-website .Repairs ,.Communication,.Delevery{
+    width: 20%;
+    height: 300px;
+    border: 1px solid black;
+    display: inline-block;
+   margin:20px ;
+}
+
+
+
+.sevice-of-website .Repairs_down ,.Communication_down,.Delevery_down{
+    width: 20%;
+    height: 300px;
+    border: 1px solid black;
+    display: inline-block;
+   margin:20px ;
+}
+
+
+
+.sevice-of-website .Repairs{
+    margin-left: 16.5%;
+    }
+
+
+.sevice-of-website .Repairs_down{
+margin-left: 16.5%;
+}
+.overley_Service_website{
+    width: 0%;
+    height: 0%;
+top: 0px;
+left: 0px;
+position: absolute;
+background-color: rgba(0, 0, 0, 0.379);
+transition: .5s;
+}
+.sevice-of-website .Repairs{
+    position: relative;
+}
+
+.sevice-of-website .Communication{
+    position: relative;
+}
+.sevice-of-website .Delevery{
+    position: relative;
+}
+
+.Repairs:hover .overley_Service_website{
+    width: 100%;
+    height: 100%;
+
+}
+/* down */
+.sevice-of-website .Repairs_down{
+    position: relative;
+}
+
+.sevice-of-website .Communication_down{
+    position: relative;
+}
+.sevice-of-website .Delevery_down{
+    position: relative;
+}
+
+
+.Communication:hover .overley_Service_website{
+    width: 100%;
+    height: 100%;
+
+}
+.Delevery:hover .overley_Service_website{
+    width: 100%;
+    height: 100%;
+}
+
+/* 'down' */
+.Repairs_down:hover .overley_Service_website{
+    width: 100%;
+    height: 100%;
+
+}
+.Communication_down:hover .overley_Service_website{
+    width: 100%;
+    height: 100%;
+
+}
+.Delevery_down:hover .overley_Service_website{
+    width: 100%;
+    height: 100%;
+}
+.Why_Choose_Us{
+    background-color: #e1e1e1;
+    margin: 60px 0px;
+    overflow: auto;
+    padding: 60px 0px;
+}
+.Why_Choose_Us_left{
+    float: left;
+    max-width: 50%;
+
+}
+
+.Why_Choose_Us .Why_Choose_Us_left h2{
+    font-size: 36px;
+    letter-spacing: 3;
+    color: #17242d;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.Why_Choose_Us .Why_Choose_Us_left h2::after{
+    position: absolute;
+    content: '';
+    width: 14%;
+    height: 4px;
+    background-color: #17242d;
+    left: 0;
+    bottom: -8px;
+}
+.Why_Choose_Us .Why_Choose_Us_left span:not(:nth-child(1)){
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.Why_Choose_Us .Why_Choose_Us_left span i{
+    font-size: 18px;
+    margin-right: 3px;
+    color: #ff0057;
+}
+.Why_Choose_Us_left{
+margin-left: 10px;
+}
+.Why_Choose_Us_right{
+    float: right;
+    width: 40%;
+    
+}
+
+/* Pricing_of_Website */
+.Pricing_of_Website .continer{
+margin-top: 50px;
+width: 100%;
+position: relative;
+
+}
+
+
+
+.title{
+    text-align: center;
+position: relative;
+}
+.title::before{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 6px;
+    background-color: #17242d;
+    bottom: -18px;
+    left: 40%;
+    border-radius: 0px 0px 20px 20px;
+}
+.box_p{
+    border: 1px solid black;
+    width: 25%;
+    float: left;
+    position: relative;
+    text-align: center;
+    transition: .3s;
+    padding: 16px;
+    margin-left: 6%;
+}
+
+
+
+
+
+ .box_p .cercale{
+    margin: 30px auto;
+    padding: 30px;
+    border: 1px solid rgb(29, 51, 132);
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+ .container button{
+    padding: 5px 10px;
+    width: 40%;
+    margin: 20px auto 0px;
+    border: 1px solid #ff0057;
+    background-color: white;
+    color: #ff0057;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+    transition: 1s;
+}
+ .container button:hover{
+    background-color: #f70052;
+    color: white;
+}
+ .pricing-content span{
+    display: block;
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.685);
+    letter-spacing: 2px;
+}
+ .container .box_p .cercale span{
+    font-weight: bold;
+    color: #8b3753;
+    font-size: 22px;
+}
+.container .box_p .cercale p{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+
+ .container .box_p::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 0%;
+    background-color: #f7005238;
+    transition: 1s;
+  
+  }
+  
+  .box_p:hover{
+    border-color: #be4913;
+}
+.box_p:hover::after{
+    height: 100%;
+}
+.box_p:hover::before{
+    height: 100%;
+}
+
+ .box_p::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 0%;
+    background-color: #34251486;
+    transition: 1s;
+
+  }
+  .img_se{
+    position: relative;
+    width: 100%;
+    clear: left;
+ 
+  }
+  .img_se img{
+position: absolute;
+top: 0px;
+width: 100%;
+height: 300px;
+margin-top: 20px;
+background-attachment: fixed;
+
+  }
+
+  .icon_latop_left{
+    margin-left: 10%;
+    position: absolute;
+    top: 10%;
+    color: white;
+  }
+  .icon_latop_left img {
+    position: absolute;
+    border-radius: 50%;
+    top: 10px;
+    left: 0px;
+    width: 70px;
+    height: 70px;
+ 
+  }
+  .icon_latop_lef h2{
+    display: inline;
+  }
+  .icon_latop_Right img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    
+  }
+  .icon_latop_Right{
+    margin-left: 60%;
+    position: absolute;
+    color: white;
+  }
+  
+
+  .section_left_right{
+    position: relative;
+    top: 20%;
+    float: left;
+   clear: both;
+    width: 100%;
+  }
+  .News_of_Website{
+    display: block;
+    text-align: center;
+    margin-top: 340px;
+  }
+
+
+  .team_of_web{
+    top: 340px;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #3c4b5591;
+
+  }
+  .team_of_website_left , .team_of_website_mittle, .team_of_website_right {
+    display: inline-block;
+    margin-left: 17%;
+   padding: 10px;
+    background-color: rgb(242, 240, 237);
+   
+  }
+  .team_of_website_right_img {
+    position: relative;
+  }
+
+  .team_of_website_mittle_img {
+    position: relative;
+  }
+
+  .team_of_website_left_img {
+    position: relative;
+  
+      }
+
+.overlay_icon{
+    position: absolute;
+    top: 0px;
+   right: 0px;
+    z-index: 13;
+  
+    display: none;
+}
+.overlay_icon i{
+color: #f2ecec;
+font-size: medium;
+cursor: pointer;
+z-index: 100;
+}
+
+
+
+
+.overlay_icon ul li {
+    list-style: none;
+}
+.team_of_website_left_overley{
+    background-color: rgba(0, 0, 0, 0.208);
+    top: 0px;
+    width: 100%;
+    height: 0px;
+    transition: .5s;
+    position: absolute;
+}
+
+.team_of_website_left:hover .team_of_website_left_overley{
+    height: 100%;
+
+}
+.team_of_website_mittle:hover .team_of_website_left_overley{
+    height: 100%;
+}
+.team_of_website_right:hover .team_of_website_left_overley{
+    height: 100%;
+}
+
+.team_of_website_left:hover .overlay_icon{
+    display: block;
+}
+
+.team_of_website_right:hover .overlay_icon{
+display: block;
+}
+.team_of_website_mittle:hover .overlay_icon{
+display: block;
+}
+
+
+
+  .News_of_Website_phot_left , .News_of_Website_phot_mittle ,.News_of_Website_phot_Right{
+    width: 25%;
+ 
+    margin-left:6.25%;
+    position: relative;
+    clear: both;
+    display: inline-block;
+  }
+  .News_of_Website_phot_left ul li{
+ list-style: none;display: inline-block;
+  }
+
+.News_of_Website_phot_mittle ul li{
+    display: inline-block;
+}
+
+.News_of_Website_phot_Right ul li{
+    display: inline-block;
+}
+
+
+  .fa{
+    display: inline-block;
+    color: #be4913;
+  }
+  .News_of_Website_phot_left  a{
+    display: block;
+  background-color: #4b2d1f;
+  border-radius: 20px;
+ width: 150px;
+ padding: 10px;
+ text-align: center;
+ margin-left: 30%;
+ text-decoration: none;
+ color: white;
+  }
+
+  .News_of_Website_phot_mittle  a{
+    display: block;
+  background-color: #392014;
+  border-radius: 20px;
+ width: 150px;
+ padding: 10px;
+ text-align: center;
+ margin-left: 30%;
+ text-decoration: none;
+ color: white;
+  }
+.News_of_Website_phot_Right  a{
+    display: inline-block;
+  background-color: #4d1419;
+  border-radius: 20px;
+ width: 150px;
+ padding: 10px;
+ text-align: center;
+ margin-left: 30%;
+ text-decoration: none;
+ color: white;
+
+  }
+
+
+  /*  */
+
+  .overley_phot_left ,.overley_phot_Mittle ,.overley_phot_Right{
+    background-color: rgba(0, 0, 0, 0.393);
+    height: 0px;
+    width: 100%;
+   position: absolute;
+   bottom: 0px;
+
+   transition: .3s;
+  }
+  .News_of_Website_phot_left:hover .overley_phot_left{
+    height: 50%;
+    width: 100%;
+  }
+
+
+  .News_of_Website_phot_mittle:hover .overley_phot_Mittle{
+    height: 50%;
+    width: 100%;
+  }
+
+  .News_of_Website_phot_Right:hover .overley_phot_Right{
+    height: 50%;
+    width: 100%;
+  }
+
+
+
+
+
+
+  .News_of_Website_phot_left:hover::after{
+    height: 50%;
+    width: 100%;
+    margin-top: 0px;
+  }
+
+
+  .overley_phot_left::after{
+    background-color: rgba(123, 144, 99, 0.393);
+    height: 0px;
+    width: 100%;
+   position: absolute;
+   top: 0px;
+
+   transition: .3s;
+  }
+  .footer{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 380px;
+    background-color: #162c3c;
+    top: 20px;
+  }
+  .footer img{
+    margin-left: 35% ;
+    margin-top: 30px;
+  }
+
+  .social {
+    
+    position: absolute;
+    width: 300px;
+  
+    left: 35%;
+  }
+.footer i{
+    color: white;
+}
+
+  .footer p{
+    margin-left: 35%;
+    color: white;
+  }
